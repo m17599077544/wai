@@ -1,0 +1,12 @@
+# Yanshee 情绪陪伴机器人 v124 依赖清单
+# 核心依赖
+requests>=2.28.0
+websocket-client>=1.4.0
+
+# 可选：Transformer 语义引擎（未安装则自动降级为规则策略）
+# torch>=1.13.0
+# transformers>=4.25.0
+# sentence-transformers>=2.2.0
+
+# 可选：MP3元数据（用于更精确的时长获取，未安装则用估算）
+# mutagen>=1.46.0
